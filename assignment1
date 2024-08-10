@@ -32,7 +32,7 @@ import java.time.format.DateTimeFormatter;
 		                driver.findElement(By.linkText("https://www.getcalley.com/")).click();
 		                driver.manage().window().setSize(new Dimension(resolution[0], resolution[1]));
 		                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"1"+".png");
+		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"(1)"+".png");
 		                FileUtils.copyFile(src, dest);
 		                driver.navigate().back();
 		            }
@@ -43,7 +43,7 @@ import java.time.format.DateTimeFormatter;
 		                driver.get("https://www.getcalley.com/calley-lifetime-offer/");
 		                driver.manage().window().setSize(new Dimension(resolution[0], resolution[1]));
 		                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"2"+".png");
+		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"(2)"+".png");
 		                FileUtils.copyFile(src, dest);
 		            }
 		            Thread.sleep(3000);
@@ -52,7 +52,7 @@ import java.time.format.DateTimeFormatter;
 		                driver.get("https://www.getcalley.com/see-a-demo/");
 		                driver.manage().window().setSize(new Dimension(resolution[0], resolution[1]));
 		                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"3"+".png");
+		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"(3)"+".png");
 		                FileUtils.copyFile(src, dest);
 		            }
 		            Thread.sleep(3000);
@@ -61,7 +61,7 @@ import java.time.format.DateTimeFormatter;
 		                driver.get("https://www.getcalley.com/calley-teams-features/");
 		                driver.manage().window().setSize(new Dimension(resolution[0], resolution[1]));
 		                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"4"+".png");
+		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"(4)"+".png");
 		                FileUtils.copyFile(src, dest);
 		            }
 		            Thread.sleep(3000);
@@ -70,7 +70,7 @@ import java.time.format.DateTimeFormatter;
 		                driver.get("https://www.getcalley.com/calley-pro-features/");
 		                driver.manage().window().setSize(new Dimension(resolution[0], resolution[1]));
 		                File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"5"+".png");
+		                File dest = new File("./data/" + browserName + "_" + resolution[0] + "×" + resolution[1] + formattedNow+"(5)"+".png");
 		                FileUtils.copyFile(src, dest);  
 		            }
 
